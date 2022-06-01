@@ -3,6 +3,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useQuery } from 'react-query';
 import auth from '../../firebase.init';
 import axiosPrivate from '../Api/axiosPrivate';
+import Fotter from '../Shared/Fotter';
 import Spinner from '../Shared/Spinner';
 import MypostCard from './MypostCard';
 import PostDelteModal from './PostDelteModal';
@@ -36,6 +37,7 @@ const MyPost = () => {
             }
         </div>
         <PostDelteModal deleteUser={deleteUser} setDelete={setDelete} refetch={refetch}></PostDelteModal>
+        <Fotter/>
        </div>
     );
 };
