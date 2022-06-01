@@ -26,7 +26,7 @@ const SingleBlog = () => {
         <div class="card-body">
           <h2 class="card-title">{blog.title}</h2>
           <p>{blog.blog}</p>
-          <p className="text-[15px] font-[500]">Author: <span className="text-orange-500 font-[500] uppercase">{blog.author}</span></p>
+          <p className="text-[15px] font-[500]">Author: <span className="text-orange-600 font-[500] uppercase">{blog.author}</span></p>
        <p className="text-gray-500 font-[400]">Published: <span>{blog.time}</span></p>
         </div>
       </div>
