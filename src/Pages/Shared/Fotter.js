@@ -50,9 +50,8 @@ const Fotter = () => {
           </div>
         </div>
         <div>
-          <p>Copyright © {year} - All right reserved by ACME Industries Ltd</p>
+          <p>Copyright © {year} - All right reserved by Shariar</p>
         </div>
-        {/* hfdif */}
       </footer>
     </div>
   );
