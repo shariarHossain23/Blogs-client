@@ -18,7 +18,7 @@ const MypostCard = ({ post,setDelete }) => {
                 {author}
               </span>
             </p>
-            <p className="text-gray-500 font-[400]">
+            <p className="text-gray-600 font-[400]">
               Published: <span>{time}</span>
             </p>
             <div className="">
