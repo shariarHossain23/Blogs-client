@@ -12,7 +12,7 @@ const PostDelteModal = ({deleteUser,setDelete,refetch}) => {
                 icon: 'success',
                 title: 'delete success',
                 showConfirmButton: false,
-                timer: 1500
+                timer: 2000
               })
             refetch()
         })
