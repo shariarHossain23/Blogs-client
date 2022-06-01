@@ -7,7 +7,6 @@ import Navbar from "./Pages/Home/Navbar";
 import SingleBlog from "./Pages/Home/SingleBlog";
 import UpdateProfile from "./Pages/Home/UpdateProfile";
 import Login from "./Pages/Login/Login";
-import Fotter from "./Pages/Shared/Fotter";
 import NotFound from "./Pages/Shared/NotFound";
 import RequireAuth from "./Pages/Shared/RequireAuth";
 import Signup from "./Pages/SIgnup/Signup";
@@ -35,7 +34,6 @@ function App() {
         <Route path="/signup" element={<Signup></Signup>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
-      <Fotter></Fotter>
     </div>
   );
 }
