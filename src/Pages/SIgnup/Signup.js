@@ -39,7 +39,7 @@ const Signup = () => {
   let signError;
   if (gError || cError) {
     signError = (
-      <p className="text-red-500 mb-2">{gError?.message || cError?.message}</p>
+      <p className="text-red-600 mb-2">{gError?.message || cError?.message}</p>
     );
   }
   const onSubmit = async (data) => {
