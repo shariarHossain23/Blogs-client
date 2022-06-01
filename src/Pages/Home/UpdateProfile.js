@@ -43,7 +43,7 @@ const UpdateProfile = () => {
                   icon: 'success',
                   title: 'profile picture uploaded',
                   showConfirmButton: false,
-                  timer: 1500
+                  timer: 2000
                 })
                 reset()
               }
