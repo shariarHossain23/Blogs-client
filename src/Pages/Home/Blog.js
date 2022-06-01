@@ -18,7 +18,7 @@ const Blog = ({ blog }) => {
         <div class="card-body">
        <div className="">
        <p className="text-[15px] font-[500]">Author: <span className="text-orange-500 font-[500] uppercase">{author}</span></p>
-       <p className="text-gray-500 font-[400]">Published: <span>{time}</span></p>
+       <p className="text-gray-600 font-[400]">Published: <span>{time}</span></p>
        </div>
           <h2 class="card-title">
             {title}
