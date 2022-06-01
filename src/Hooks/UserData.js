@@ -15,9 +15,7 @@ const UserData = () => {
         })
     })
 
-    // useEffect(()=>{
-       
-    // },[user])
+   
     return [users]
 };
 
