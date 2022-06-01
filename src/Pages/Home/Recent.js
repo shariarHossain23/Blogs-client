@@ -7,7 +7,7 @@ const Recent = ({ recent }) => {
   return (
     <div onClick={()=>navigate(`blog/${_id}`)}>
     <img className="h-[200px]" src={img} alt="img" />
-    <p className="bg-green-500 font-[500] text-xl">{title}</p>
+    <p className="bg-green-600 font-[500] text-xl">{title}</p>
 </div>
    
   );
