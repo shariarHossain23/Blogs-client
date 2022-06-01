@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axiosPrivate from "../Api/axiosPrivate";
+import Fotter from "../Shared/Fotter";
 
 const SingleBlog = () => {
   const { id } = useParams();
@@ -30,6 +31,7 @@ const SingleBlog = () => {
        <p className="text-gray-500 font-[400]">Published: <span>{blog.time}</span></p>
         </div>
       </div>
+      <Fotter/>
     </div>
   );
 };
