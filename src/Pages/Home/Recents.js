@@ -18,7 +18,7 @@ const Recents = () => {
             <h1 className='text-center text-4xl mb-4'>Recent post</h1>
           
              <Carousel>
-                 {
+                 { 
                      recents.slice(0,6).map(recent => <Recent key={recent._id} recent={recent}></Recent>)
                  }
              </Carousel>
