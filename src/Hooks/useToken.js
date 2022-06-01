@@ -9,7 +9,6 @@ const useToken = user => {
         if(email){
             axiosPrivate.put(`bloguser/${email}`,currentUser)
             .then(response => {
-                console.log(response.data.token);
                 const accessToken =response.data.token
                 localStorage.setItem("user",accessToken)
                 setToken(accessToken)
