@@ -14,7 +14,7 @@ const Banner = () => {
           <h2 className="text-2xl mt-4 text-white">
             Create a unique and beautiful blog easily.
           </h2>
-          <button className="bg-orange-600 uppercase font-[500] text-white px-6 py-4 mt-6 rounded-md">Create Your Blog</button>
+          <button className="bg-orange-500 uppercase font-[500] text-white px-6 py-4 mt-6 rounded-md">Create Your Blog</button>
         </div>
       </div>
     </div>
