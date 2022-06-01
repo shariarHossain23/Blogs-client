@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import auth from "../../firebase.init";
 import axiosPrivate from "../Api/axiosPrivate";
+import Fotter from "../Shared/Fotter";
 
 const AddPost = () => {
     const [user]  = useAuthState(auth)
@@ -149,6 +150,7 @@ const AddPost = () => {
           </button>
         </div>
       </form>
+      <Fotter/>
     </div>
   );
 };
